@@ -1,0 +1,19 @@
+{
+  "name": "Phaser_Multiplayer_Template",
+  "version": "1.0.0",
+  "description": "The start of a multiplayer Phaser game.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node .",
+    "autoRefresh": "nodemon ."
+  },
+  "author": "Brian Picciano",
+  "dependencies": {
+    "express": "^4.13.0",
+    "socket.io": "^1.3.5"
+  },
+
+  "devDependencies": {
+    "nodemon": "^0.7.10"
+  }
+}
